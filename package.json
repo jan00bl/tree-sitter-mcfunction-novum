@@ -1,13 +1,13 @@
 {
-  "name": "tree-sitter-quick_check",
-  "version": "0.0.0",
-  "description": "Dummy Tree sitter grammar",
+  "name": "tree-sitter-mcfunction-nouvm",
+  "version": "0.1.0",
+  "description": "Tree sitter grammar for mcfunction-novum",
   "main": "index.js",
-  "repository": null,
-  "author": "Benjamin Gray",
+  "repository": "https://github.com/jan00bl/tree-sitter-mcfunction-novum",
+  "author": "jan00bl",
   "license": "MIT",
   "devDependencies": {
-    "tree-sitter-cli": "^0.13.5"
+    "tree-sitter-cli": "^0.17.3"
   },
   "scripts": {
     "build": "tree-sitter generate && node-gyp build"
